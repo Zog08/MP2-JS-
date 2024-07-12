@@ -1,8 +1,66 @@
 body {
     background-color: #F7E1D7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        text-align: center;
+    }
+
+/*-----------------------------Title area styling*/
+
+.titles {
+    background-color: #F7E1D7;
+    margin: 25px auto;
+    width:fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border: solid 5px #EDAFB8;
+    border-radius: 20px;
 }
 
 .titles h1 {
+        color: #4A5759;
+        font-family: "Bona Nova SC";
+        font-size: 75px;
+    }
+
+.titles h2 {
     color: #4A5759;
-    
+    font-size: 20px;
+}
+
+/*------------------------------Game area styling--*/
+
+.game-area {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px ;
+    margin: 25px auto;
+    justify-content: center;
+}
+
+.game-area div {
+   border: 1px solid #4A5759;
+   margin: 2px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   background-color: #DEDBD2;
+   color: #4A5759;
+   border-radius: 5px;
+}
+
+#empty-piece {
+    background-color: #F7E1D7;
 }
